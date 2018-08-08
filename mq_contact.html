@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- linking favicon -->
+    <link rel="shortcut icon" type="image/png" href="file:///C:/Users/Jared/Desktop/Course/UNCRAL201807FSF2/01-Class-Content/01-html-git-css/02-Homework/Jared's_Logo.png">
+
+    <!-- style sheet of for general CSS that matches other html pages -->
+    <link rel="stylesheet" type="text/css" media="screen" href="mq_style.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        
+        <!-- media queries -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Contact Jared Spears</title>
+             <!-- This Script was a copy and paste deal..No this was not part of the HW but I wanted this feature on my portfolio page for career hunting purposes. -->
+             <script 
+                type='text/javascript' data-cfasync='false'>window.purechatApi = 
+                { l: [], t: [], on: function () { this.l.push(arguments); } };
+                (function () { var done = false; var script = document.createElement('script');
+                script.async = true; script.type = 'text/javascript'; 
+                script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; 
+                document.getElementsByTagName('HEAD').item(0).appendChild(script); 
+                script.onreadystatechange = script.onload = function (e) 
+                { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) 
+                { var w = new PCWidget({c: 'eb09532c-b63a-4977-b9c5-90b62cc20d06', f: true }); done = true; } }; })();
+            </script>
+       
+        <!-- For ease I put part of the CSS into this html doc -->
+        <style>
+       
+
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 5px ridge mediumseagreen;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+        
+            }
+
+            input[type=submit] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+
+            .container {
+                border-radius: 5px;
+                background-color:rgb(206, 73, 59);
+                padding: 20px;
+                width: 960px;
+                margin-right:auto;
+                margin-left:auto;
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+        </style>
+</head>
+<body>
+    <!-- bacground class -->
+    <div class="background">  
+    <!-- Attempting to create a wrapper so the texts are centered -->
+    <div class="wrapper">   
+
+        <header>
+               Jared Spears
+                 
+            <div class="buttons">
+                <a class="Contact_button" href="mq_contact.html">Contact</a>
+                <a class="Portfolio_button" href="mq_portfolio.html">Portfolio</a>
+                <a class="About_button" href="mq_index.html">About/Home</a>
+            </div>
+        
+        </header> 
+
+    
+<div class="container">
+    <h1>Contact Jared:</h1>
+         <br><br><br>
+            <hr>
+
+    
+    <!-- located this form skeleton online, modified to meet needs of portfolio site -->
+    <form action="/action_page.php">
+    
+        <!-- space for first name -->
+    <label for="fname" id="fname1">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <!-- space for last name -->
+    <label for="lname"id="lname1">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <!-- space for email to be imput -->
+    <label for="email" id="email1">Email</label>
+    <input type="text" id="email" name="email" placeholder="ex: DJTrump@gmail.com">
+
+        <!-- space for message subject -->
+    <label for="subject"id="subject1">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <!-- directive for submission of contact form -->
+    <input type="submit" value="Submit">
+  </form>
+
+
+  
+</div>
+
+
+  <!-- footer -->
+  <footer id="footer"> ***Creating & Designing since 2018***
+            
+    </footer>
+</body>
+</html>

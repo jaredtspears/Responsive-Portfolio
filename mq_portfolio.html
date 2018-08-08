@@ -1,0 +1,117 @@
+<DOCTYPE <!DOCTYPE html>
+    <html>
+
+    <head>
+        <!-- media queries -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Jared Spears' Portfolio</title>
+
+        <link rel="stylesheet" type="text/css" media="screen" href="mq_style.css" />
+        <!-- added this link from my bootstrap css for the portfolio page only because the media queries were not adding correctly in the old portfolio week 1 assignment -->
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+        <!-- linking favicon works in other pages but NOT here-->
+        <link rel="shortcut icon" type="image/png" href="file:///C:/Users/Jared/Desktop/Course/UNCRAL201807FSF2/01-Class-Content/01-html-git-css/02-Homework/Jared's_Logo.png">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        <!-- for the sake of headache I didnt use my originial week 1 portfolio page because the rows and columns were hand made and 
+            the issues for media queries was really not working... my tutor couldnt even figure it out.  -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+            <!-- PureChat Widget had to put in body -->    
+            <script type='text/javascript' data-cfasync='false'>window.purechatApi =
+                { l: [], t: [], on: function () { this.l.push(arguments); } };
+                 (function () {
+                var done = false; var script = document.createElement('script');
+                script.async = true; script.type = 'text/javascript';
+                script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript';
+                document.getElementsByTagName('HEAD').item(0).appendChild(script);
+                script.onreadystatechange = script.onload = function (e) {
+                    if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'eb09532c-b63a-4977-b9c5-90b62cc20d06', f: true }); done = true; }
+                };
+                 })();
+            </script>
+
+        <!-- background class -->
+        <div class="background">
+            <Header>
+                <div class="headerPortfolio">Jared Spears</div>
+                <div class="buttons">
+                    <a class="Contact_button" href="mq_contact.html">Contact</a>
+                    <a class="Portfolio_button" href="mq_portfolio.html">Portfolio</a>
+                    <a class="About_button" href="mq_index.html">About/Home</a>
+                </div>
+            </Header>
+            <!-- container (oddly in this portfolio it is not working as in the other html files for this site...) -->
+            <hr>
+            <div class="container">
+                    <div class="row"> 
+                            <div class="col-lg-12">
+                                <div class="PortH1">Portfolio:</div>
+                            </div>
+                            <br><br><br><br>
+                         
+                         <!-- wish I could figure out why the <hr> element cannot have an override in bootstrap... it is styled the same as the other pages just missing
+                        the white lines actuallized on the screen -->
+                            <hr>
+                    </div>
+                <div class="row"> 
+                    <!-- placeholder col -->
+                    <div class="col-lg-1">
+                    </div>
+                </div>
+                        <!-- rows 1 in lg screen -->
+                        <div class="row"> 
+                            <div class="col-lg-2 col-md-4 col-sm-4">
+                                <a href=" https://www.linkedin.com/in/jared-spears-a06045107" target="blank">
+                                    <div class="pic1"><h5>Placeholder Text</h5></div>   
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4">
+                                <a href=" https://github.com/" target="blank">
+                                    <div class="pic2"><h5>Placeholder Text</h5></div>       
+                            </div>
+                        </div>
+                        <!-- row 2 in lg screen -->
+                        <div class="row"> 
+                            <div class="col-lg-2 col-md-4 col-sm-4">
+                                <a href="https://www.meetup.com/members/194052928/ " target="blank">
+                                    <div class="pic3"><h5>Placeholder Text</h5></div>     
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-4 " >
+                                <a href=" https://slack.com/" target="blank">
+                                    <div class="pic4"><h5>Placeholder Text</h5></div>  
+                            </div>
+                        </div>
+                        <!-- row 3 in lg -->
+                        <div class="row"> 
+                            <div class="col-lg-2 col-md-4 col-sm-4">
+                                <a href=" https://angel.co/jared-spears-1" target="blank">
+                                    <div class="pic5"><h5>Placeholder Text</h5></div>
+                                </a>
+                            </div>
+                        </div>
+                    <!-- placeholder col -->
+                    <div class="col-lg-1">
+                    </div>
+            </div>
+                 <!-- wish I could figure out why the <hr> element cannot have an override in bootstrap... it is styled the same as the other pages just missing
+                    the white lines actuallized on the screen -->
+                <hr>
+            <footer id="footer1" id="footer"> 
+            
+                ***Creating & Designing since 2018***</footer>
+
+        </div>
+           
+
+            
+    </body>
+
+    </html>

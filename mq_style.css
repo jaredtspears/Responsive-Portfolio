@@ -1,0 +1,484 @@
+
+
+*{
+    box-sizing: border-box;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    font-size: 26px;
+
+}
+        /* button hovor colors */
+        .About_button:hover {
+            background-color:rgb(206, 73, 59);
+            color:burlywood;
+        }
+        .Portfolio_button:hover {
+                background-color:rgb(206, 73, 59);
+                color:burlywood;
+        }
+        .Contact_button:hover {
+                    background-color:rgb(206, 73, 59);
+                    color:burlywood;
+        }
+     
+.About_button {
+    background-color:rgb(95, 206, 95);
+    color:rgb(85, 65, 40);
+    float: right;
+    cursor: pointer;
+    padding: 5px 16px;
+    font-size: 26px;
+    width: 190px;
+    margin:5px 10px;
+    font-family: 'Rubik', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius:10px;
+    display: inline;
+}
+.Portfolio_button {
+    background-color:rgb(95, 206, 95);
+    color:rgb(85, 65, 40);
+    float: right;
+    cursor: pointer;
+    padding: 5px 16px;
+    font-size: 26px;
+    width: 170px;
+    margin:5px 10px;
+    font-family: 'Rubik', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius:10px;
+}
+.Contact_button {
+    background-color:rgb(95, 206, 95);
+    color:rgb(85, 65, 40);
+    float: right;
+    cursor: pointer;
+    padding: 5px 16px;
+    font-size: 26px;
+    width: 170px;
+    margin:5px 10px;
+    font-family: 'Rubik', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius:10px;
+}
+body {
+    font-size: 20px !important;
+    padding: 0px;
+    margin: 0px;
+    color:burlywood !important;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 5px 5px 5px 5px;
+    line-height: 30px !important;  
+}
+
+.body {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+/* does not do anything...for portfolio page */
+hr {
+      color:white !important;
+      }
+
+header {
+    font-size:50px;
+    padding-left: 16px;
+    padding-bottom:5px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    margin-top:50px;
+    background-image: url("https://image.shutterstock.com/image-photo/grunge-burned-wood-texture-black-260nw-567879925.jpg") ;
+    text-align: left;
+    overflow:auto;
+    height:auto;
+    width: 960px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 10px; 
+    /* position static for the @media to work on phone */
+    position: static;
+}
+.headerPortfolio {  font-size:50px !important;}
+
+.container {
+    border-radius: 10px;
+    background-color:rgb(206, 73, 59);
+    padding: 20px;
+    width: 960px !important;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position:relative;
+
+}
+.wrapper {
+    width:100%;
+    padding: 0px;
+    margin: 0;
+    text-overflow: auto;
+  }
+                h1 {
+                    float: left;
+                    color:rgb(34, 30, 30);
+                    text-shadow: 1px 1px burlywood;
+                    background-blend-mode: darken;
+                    background: rgb(206, 73, 59);
+                    padding:15px;
+                    margin:1px;
+                    border: 10px ridge;
+                    border-right: 0;
+                    border-top: 0;
+                    border-color: mediumseagreen;
+                    border-radius: 10px;
+                    font-family: 'Rubik', sans-serif;
+                    font-size: 35px;
+                }
+                /* for fixing the portfolio page h1 to match being it is an oddly styled page. */
+                .PortH1 {
+                    float: left !important;
+                    color:rgb(34, 30, 30) !important;
+                    text-shadow: 1px 1px burlywood !important;
+                    background-blend-mode: darken !important;
+                    background: rgb(206, 73, 59) !important;
+                    padding:15px !important;
+                    margin:1px !important;
+                    border: 10px ridge !important;
+                    border-right: 0 !important;
+                    border-top: 0 !important;
+                    border-color: mediumseagreen !important;
+                    border-radius: 10px !important;
+                    font-family: 'Rubik', sans-serif !important;
+                    font-size: 35px !important;
+                }
+
+                h2 {
+                    font-size: 50px;
+                    color:burlywood;
+                }
+                h5 {
+                    font-family: 'Rubik', sans-serif;
+                    font-size:14px !important;
+                    background-color: mediumseagreen;
+                    opacity: .5 !important;
+                }
+
+                /* want background of initial About info in p to be faided from background image */
+                p {
+                    text-align: left;
+                    word-spacing: 5px;
+                    width:60px;
+                }
+                section {
+                    width:960px;
+                }
+                /* had to edit this just like a few other places just for the fact that the portfolio page with the added css was not working visually to match the other pages */
+                #footer1{ 
+                    bottom: 0;
+                    background:rgb(206, 73, 59);
+                    width:100%;
+                    margin: 0;
+                    padding:0;
+                    text-align:center;
+                    border-radius: 10px;
+                    color:burlywood !important;
+                    line-height: 30px !important; 
+                    font-size: 20px !important;
+                }
+                #footer{ 
+                    bottom: 0;
+                    background:rgb(206, 73, 59);
+                    width:100%;
+                    margin: 0;
+                    padding:0;
+                    text-align:center;
+                    border-radius: 10px;
+                    color:burlywood !important;
+                    line-height: 30px !important; 
+                    font-size: 20px !important;
+                }
+               
+
+/* linked only currently to 7.21.18 index.html file */
+#Profile-Pic {
+     float:left;
+     height: 200px;
+     padding: 5px;
+     margin-bottom:0 5px 5px 30px ;
+     -ms-wrap-through: wrap;
+     position: relative;
+     border-radius: 15px;
+   
+}
+ /* needed to apply this in the <p> because without it the alignment was really off. */
+.clearfix {
+    overflow: auto;
+}
+    /* attempting to get the <p> in the index.html to wrap around profile picture. */
+.text {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    word-wrap: wrap inherit;
+      }
+/* for images on portfolio page */
+/* for HW 2 locate these rows created in activity 11-BootstrapDemo */
+
+.pic1 {
+    background-image: url("https://blog.linkedin.com/etc/designs/linkedin/katy/global/clientlibs/img/default-share.png");
+    background-size: 150px 150px;
+    height: 150px;
+    width:150px;
+    border: 5px, solid,  mediumseagreen;
+    padding: 5px;
+  }
+    /* currently hovors are not working like my first page due w1 hw was not formatted as a <div with a class=pic1, it was an <img> */
+    .pic1:hover {
+         background-color:  rgb(95, 206, 95);
+
+    }
+   .pic2{
+    background-image: url("https://thesaasreport.com/wp-content/uploads/2018/06/github-collab-retina-preview.gif");
+    background-size: 150px 150px;
+    height: 150px;
+    width:150px;
+    border: 5px, solid,  mediumseagreen;
+    padding: 5px;
+  }
+    .pic2:hover {
+        background-color:  rgb(95, 206, 95);
+        padding:5px;
+
+    }
+.pic3 {
+    background-image: url("https://image.freepik.com/free-icon/meetup-logo_318-64667.jpg");
+    background-size: 150px 150px;
+    height: 150px;
+    width:150px;
+    border: 5px, solid,  mediumseagreen;
+    padding: 5px;
+  }
+    .pic3:hover {
+        background-color:  rgb(95, 206, 95);
+
+    }
+.pic4 {
+    background-image: url("http://www.gamasutra.com/db_area/images/news/2017/May/298790/Slack-logo.png");
+    background-size: 150px 150px;
+    height: 150px;
+    width:150px;
+    border: 5px, solid,  mediumseagreen;
+    padding: 5px;
+  }
+    .pic4:hover {
+        background-image:  rgb(95, 206, 95);
+
+    
+   }
+.pic5 {
+    background-image: url("https://cdnassets.hw.net/dims4/GG/f54074a/2147483647/resize/300x%3E/quality/90/?url=https%3A%2F%2Fcdnassets.hw.net%2F58%2F51%2F98c33b0e4822923e97064a8fc35b%2Fangies-list.png");
+    background-size: 150px 150px;
+    height: 150px;
+    width:150px;
+    border: 5px, solid,  mediumseagreen;
+    padding: 5px;
+  }
+    .pic5:hover {
+        background-color:  rgb(95, 206, 95);
+
+     }             
+            
+           
+
+  .background {
+    background-image:url("http://s1.picswalls.com/wallpapers/2014/07/19/tree-photo_111651193_73.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    overflow-y: auto;
+    width:100%;
+    height:100%;
+}
+         /* This is for the contact page, just playing with the fname/lname stuff  */
+                
+                #lname1 {
+                    text-align: center;
+                }
+                #email1 {
+                    text-align: center;
+                }
+                #subject1 {
+                    text-align: center; 
+                }
+
+
+
+/* media  queries */
+/* _____________________________________________________________________________________________________________
+    pardon the craziness, I was struggling hard on this assignment, will redo this if allowed for better grade.
+    ___________________________________________________________________________________________________________ */
+/* full screen */
+@media screen and (max-width:980px) {
+    header {
+        width: 100%;
+}
+#Profile-Pic,{
+    height: 200px;
+    }
+    body {
+        width:100%;
+    }
+    form {
+        width: 100% !important; 
+       
+    }
+    footer {
+        width: 100%;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+}
+}
+/* medium (tablet size) screen */
+@media screen and (max-width:768px) {
+  
+    background {
+      width:100%;
+    }
+    body {
+            width: 100%; 
+           
+        }
+    /* not sure how to edit this one */
+     #Profile-Pic,{
+        height: 275px;
+        }
+        /* not currently doing anything */
+    .text {
+        -ms-word-wrap: inherit;
+    }
+  
+    .pic1, .pic2, .pic3, .pic4, .pic5 {
+        background-size: 200px 200px;
+        height: 200px;
+        width:200px;
+    }
+    .row {
+        width:200px !important;
+       
+    }
+    .container {
+        width: 100% !important;
+        width:740px;
+        justify-content: center !important;
+    }
+    container {
+        width: 100% !important;
+        width:740px;
+    }
+
+    input[type=text], select, textarea {
+        width: 100%; 
+    }
+    input {
+        width:100% !important;
+    }
+    .container {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+}
+form {
+    width: 100%; 
+    max-width: 600px;
+}
+}
+
+/* small (phone) screen */
+@media screen and (max-width:640px) {
+    background {
+        width: 100%; 
+    }
+    header {
+        width: 100%; 
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+    .About_button .Contact_button .Portfolio_button {
+     margin:15px 10px;
+     /* padding is not reducing, media query not show up in dev toosl under element? */
+     padding:0px !important;
+    }
+    nav {
+        width: 100%; 
+    }
+    *{
+      
+    }
+    body {
+            width: 100%; 
+           
+        }
+  /* not sure how to edit this one */
+    #Profile-Pic {
+        height: 300px;
+       
+       
+        /* feel like this was a dirty way to get the "the to finally go below the picture at the smallest level... but it did work. */
+        padding-left: 25%;
+        padding-right:25%;
+       
+        clear:left;
+     
+
+    }
+    /* attempted to make a column just for the profile picture so that it would allow the texts to float under it */
+    .column1{
+        width:100%;
+    }
+    .pic1, .pic2, .pic3, .pic4, .pic5 {
+        background-size: 300px 300px;
+        height: 300px;
+        width:300px
+    }
+    .row {
+        width:300px !important;
+    }
+    /* font size is not getting smaller...  */
+    .text {
+     text-justify: auto;
+     font-size: 16px;
+}
+p {
+    font-size:16px;
+}
+    input[type=text], select, textarea {
+            width: 100%; 
+        } 
+    .container {
+        position:static;
+        width: 100%;
+    }
+    form {
+        width: 100%; 
+    }
+}
+
+/* matching images to the hw images...
+not sure how to add these in... */
+
+index.html: [980px](Images/980-index.jpg), [768px](Images/768-index.jpg), [640px](Images/640-index.jpg)
+
+portfolio.html: [980px](Images/980-portfolio.jpg), [768px](Images/768-portfolio.jpg), [640px](Images/640-portfolio.jpg)
+
+contact.htmlS: [980px](Images/980-contact.jpg), [768px](Images/768-contact.jpg), [640px](Images/640-contact.jpg)
+
+
+
